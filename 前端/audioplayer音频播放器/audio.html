@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="audioplayer.css"/>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="audioplayer.min.js"></script>
+</head>
+<body>
+
+播放：
+
+<br/>
+<audio controls="controls" >
+    <source src="tt.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio>
+
+<script>
+    $(function(){
+
+        $('audio').audioPlayer();
+    });
+</script>
+</body>
+</html>
